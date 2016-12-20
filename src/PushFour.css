@@ -1,0 +1,68 @@
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+td.g {
+  background-color: grey;
+}
+
+td.w {
+  background-color: white;
+}
+
+td.b {
+  background-color: black;
+}
+
+.preview-0 {
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  background: red;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.player-0 {
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  background: red;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.player-1 {
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  background: blue;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.disable-game {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
