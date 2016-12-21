@@ -1,7 +1,7 @@
 {
   "name": "pushfour-react-local",
   "version": "0.1.0",
-  "homepage": "PushFour-React/build/",
+  "homepage": "/PushFour-React/build/",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.8.4"
